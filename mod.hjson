@@ -1,0 +1,31 @@
+name: z2r-thithanium
+description: '''
+Things I made for my convenience (after completing Mindustry, I re-beginned it 'cause i liked it and I made this almost working mod).
+This mod adds new materials, solar panels, industries and other to make a balanced game experience, e.g. without discarding titanium in [accent[]]Ground Zero[[]], but you can do almost nothing with this if you don't use launch pads.
+For now [purple[]]Serpulo[[]] only, in new releases I will make something useful also for[red[]] Erekir[[]].
+
+[red[]]Warning[[]]: this version has test tools, because I'm still learning some features (as a combustion generators). Do not use them if you don't want to cause Mindustry crush/lag or if you want to be able to destroy things you built.
+(If sonething hasn't a sprite, is experimental).
+
+I'm still a beginner: suggestions, feedbacks and other can be send to me via e-mail:
+[blue[]]susb84261@gmail.com.[[]]
+or also via Discord:
+[blue[]]Zarikar2Reshi#6207[[]]
+Thanks in advance.
+
+
+[accent[]]Credits:[[]]
+
+Code: [blue[]]Zarikar2Reshi[[]]
+Thithanium: [blue[]]Zarikar2Reshi[[]]
+Sprites: [blue[]]Zarikar2Reshi[[]] (main), fresh791
+Helps: -for now nobody, see [accent[]]Readme.txt[[]] for more info.
+
+Thank you very much! I hope you'll like my mod!
+'''
+author: "[blue[]]Zarikar2Reshi"
+displayName: "[cyan[]]THITHANIUM"
+subtitle: "TODO - Units not hacking"
+version: 1.2
+minGameVersion: "140.0"
+dependencies: []
