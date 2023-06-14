@@ -1,0 +1,29 @@
+{
+  "name": "Ground upgrader",
+  "description": "Upgrades cars by armoring them.",
+
+  "health": 550,
+  "type": "Reconstructor",
+  "size": 5,
+  "constructTime": 650,
+
+  "upgrades": [
+        ["car", "armored-car"]
+  ],
+
+  "consumes": {
+    "power": 6.5,
+    "items": {
+      "items": [
+        "thithanium/100"
+      ]
+    }
+  },
+
+  "requirements": [
+    "silicon/250",
+    "thithanium/100"
+  ],
+  "category": "units",
+  "research": "car-fabricator"
+}

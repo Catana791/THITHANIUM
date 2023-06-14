@@ -1,0 +1,19 @@
+{
+  "type": "ItemBridge",
+  "name": "Thithanium brige",
+  "description": "A better, faster, and longer bridge conveyer",
+  "details": "It doesn't require power! Yay!"
+  "health": 300,
+  "hasItems": true,
+  "hasPower": false,
+  "requirements": [
+    "copper2/5",
+    "lead2/5",
+    "thithanium/5"
+
+  ],
+  "range": 13,
+  "transportTime": 1,
+  "category": "distribution",
+  "research": "thithanium-conveyor"
+}

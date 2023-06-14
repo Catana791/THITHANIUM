@@ -1,0 +1,75 @@
+name: Universal Fabricator
+description: An unit fabric for ALL mod's units (Tier I).
+details: Due to convenience of raffined technologies, it costs so lesser and it's so efficient that you should always use it, instead of creating air/ground fabs. It's also very heavily armoured, so why don't use it?
+
+
+type: UnitFactory
+category: units
+health: 25000
+size: 5
+
+consumes: {
+  power: 2.5
+}
+
+requirements: [
+copper2/500
+silicon/250
+thithanium/100
+]
+
+plans: [
+  {
+    unit: mbu
+    time: 2000
+    requirements: [
+      copper2/250
+      lead2/100
+      coke/50
+    ]
+  }
+  {
+    unit: car
+    time: 250
+    requirements: [
+      copper2/100
+      silicon/50
+    ]
+  }
+  {
+    unit: gamma2
+    time: 300
+    requirements: [
+      copper2/100
+      silicon/50
+      thithanium/25
+    ]
+  }
+  {
+    unit: helicopter
+    time: 2700
+    requirements: [
+      copper2/500
+      silicon/350
+      thithanium/250
+      zerbiblu/50
+    ]
+  }
+  {
+    unit: airplane
+    time: 3500
+    requirements: [
+      copper2/1000
+      lead2/500
+      silicon/350
+      thithanium/325
+      zerbiblu/250
+      surge-alloy/200
+      surge2/150
+    ]
+  }
+]
+
+research: {
+  parent: gamma-fabricator
+}

@@ -1,0 +1,31 @@
+{	
+	"name": "Lid smelter",
+    "type": "GenericCrafter",
+    "description": "Forges copper and lead together, producing a light and strong alloy, called <<lid>>",
+
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 10,	
+	"craftTime": 25,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+
+	"consumes": {
+		"items": {
+			"items": [
+       "copper/1",
+			   "lead/1"
+			]
+		}
+	},
+
+	"requirements": [
+        "copper2/50",
+        "lead2/25"
+	],
+
+	"category": "crafting",
+	"research": "lead-raffiner",
+	"outputItem": "lid/1"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "LiquidBridge",
+  "name": "[cyan]Thithanium[] liquid bridge",
+  "description": "A better, faster, and longer liquid bridge",
+
+  "health": 150,
+  "hasItems": false,
+  "hasPower": false,
+
+  "requirements": [
+    "copper2/5",
+    "lead2/5",
+    "thithanium/5"
+  ],
+
+  "range": 13,
+  "transportTime": 1,
+  "category": "liquid",
+  "research": "thithanium-bridge-conveyor"
+}

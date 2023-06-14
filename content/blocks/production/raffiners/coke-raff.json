@@ -1,0 +1,37 @@
+{	
+	"name": "Coke producer",
+  "description": "Raffines coal, obtaining carbon coke. It produces slag, that it <raffredda> for using its energy, as a by-product. Doesn't require power.",
+
+ "health": 250,
+ "type": "GenericCrafter",
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 55,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+        "coal/4"
+			]
+		}
+	},
+
+	"requirements": [
+      "copper2/100",
+      "lead/50",
+      "thithanium/25"
+	],
+
+	"category": "crafting",
+	"research": "raffiner",
+	"outputItem": "coke/1"
+
+
+//WTF WHY DOESN'T IT WORK
+//	"outputItem": [
+//    "coke/1"
+//    "scrap/2"
+// ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Thithanium router",
+    "description": "A better router",
+
+    "type": "router",
+    "size": 1,
+    "health": 110,
+    "hasItems": true,
+    "speed": 90,
+    "itemCapacity": 5,
+
+    "requirements": [
+        "copper2/1",
+        "thithanium/2"
+    ],
+
+    "research": "thithanium-junction"
+}

@@ -1,0 +1,24 @@
+name:"Silicon wall large"
+description:"It's really resistant and it boost everything in a longer range than the normal silicon wall."
+
+size: 2
+category: defense
+health: 3000
+hasPower: true
+hasLiquids: false
+type: wall
+
+requirements:[
+    silicon/24
+]
+
+research: silicon-wall
+range: 50
+reload: 60
+speedBoost: 1.5
+useTime: 300
+type: overdriveProjector
+
+consumes: {
+ power: 1.0
+}

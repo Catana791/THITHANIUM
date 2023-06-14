@@ -1,0 +1,26 @@
+{	
+	"name": "Raffiner",
+    "type": "GenericCrafter",
+    "description": "Raffines copper",
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 10,	
+	"craftTime": 20,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+        "copper/4"
+			]
+		}
+	},
+	"requirements": [
+        "copper/50",
+        "lead/25"
+	],
+	"category": "crafting",
+	"research": "a",
+	"outputItem": "copper2/1"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "Conveyor",
+    "name": "Icer conveyor",
+    "description": "A rafined copper conveyor, quadruple as fast, and quadruple as durable!",
+    "category": "distribution",
+    "health": 150,
+    "speed": 0.16,
+    "displayedSpeed": 16.8,
+    "requirements": [
+        "copper2/1"
+    ],
+    "research": "a"
+}

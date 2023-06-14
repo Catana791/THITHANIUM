@@ -1,0 +1,25 @@
+{	
+	"name": "Scrap raffiner",
+    "type": "GenericCrafter",
+    "description": "Raffines scrap",
+    "health": 100,
+	"size": 1,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 20,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+           "scrap/4"
+			]
+		}
+	},
+	"requirements": [
+        "copper2/25"
+	],
+	"category": "crafting",
+	"research": "depulverizer",
+	"outputItem": "scrap2/1"
+}

@@ -1,0 +1,28 @@
+{	
+	"name": "Destroyer",
+    "type": "GenericCrafter",
+    "description": "Crushes copper into scrap",
+
+    "health": 75,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 15,	
+	"craftTime": 25,
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+       "copper/2"
+			]
+		}
+	},
+
+	"requirements": [
+        "lead2/50",
+        "copper2/25"
+	],
+
+	"category": "crafting",
+	"research": "raffiner",
+	"outputItem": "scrap/2"
+}

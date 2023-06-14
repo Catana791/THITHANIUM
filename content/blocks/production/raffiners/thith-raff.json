@@ -1,0 +1,31 @@
+{	
+	"name": "[cyan]Thithanium[] maker",
+    "type": "GenericCrafter",
+    "description": "Raffiners titanium, crafting[cyan] T H I T H A N I U M",
+
+    "health": 200,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 25,	
+	"craftTime": 40,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+
+	"consumes": {
+		"items": {
+			"items": [
+       "titanium/4"
+			]
+		}
+	},
+
+	"requirements": [
+    "copper2/150",
+    "lead2/100",
+    "graphite/50"
+	],
+
+	"category": "crafting",
+	"research": "lead-raffiner",
+	"outputItem": "thithanium/1"
+}

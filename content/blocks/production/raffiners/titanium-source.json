@@ -1,0 +1,33 @@
+{	
+	"name": "Titanium raffiner",
+    "type": "GenericCrafter",
+    "description": "Obtains titanium, by producing the components of raffined scraps and inceneriting other materials. Really useless regardless of sectors wo titanium and when you use spatial ascensors.",
+
+    "health": 100,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 10,
+ "hasPower": true,
+	"craftTime": 20,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+
+	"consumes": {
+   "power": 2.5
+		"items": {
+			"items": [
+      "scrap2/10"
+			]
+		}
+	},
+
+	"requirements": [
+        "copper2/50",
+        "lead2/25",
+        "silicon/10"
+	],
+
+	"category": "crafting",
+	"research": "lead-raffiner",
+	"outputItem": "titanium/1"
+}

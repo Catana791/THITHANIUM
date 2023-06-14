@@ -1,0 +1,9 @@
+{
+    "name": "Carbon coke",
+    "description": "It's raffined coal, with 10x the energy and useful for artificially making diamonds.",
+    "details": "But could be only 1.1x the energy, in reality!"
+
+    "explosiveness": 10.00,
+    "flammability": 25.00,
+    "research": "copper2"
+}

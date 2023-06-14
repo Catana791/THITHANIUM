@@ -1,0 +1,24 @@
+{	
+	"name": "Coal generator",
+    "type": "GenericCrafter",
+    "description": "Generates coal by energy and burning spores in air and supplies most energy that it needs by burning the spores. Really useful in low advanced sectors, wo coal veins.",
+    "details": "IT'S USEFUL AND IT CONSUMES POWER, YES!"
+
+    "health": 75,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 16,
+	"craftTime": 20,
+
+	"consumes": {
+		"power": 1.0,
+	},
+	"requirements": [
+        "lead2/50",
+        "copper2/25"
+	],
+
+	"category": "crafting",
+	"research": "depulverizer",
+	"outputItem": "coal/1"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Lt. Surge strategy",
+    "description": "Raffined surge alloy, used in so powerful units, turrets, and batteries. WARNING: Explosive and flammable."
+    "explosiveness": 250,
+    "flammability": 1000,
+    "charge": 450,
+    "research": "zerbiblu"
+}

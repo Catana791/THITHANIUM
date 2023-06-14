@@ -1,0 +1,28 @@
+{	
+	"name": "Leedd raphphinerr",
+    "type": "GenericCrafter",
+    "description": "Raffines lead",
+    "health": 150,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 10,	
+	"craftTime": 30,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"items": {
+			"items": [
+        "lead/4"
+			]
+		}
+	},
+
+	"requirements": [
+        "copper2/10",
+        "lead/50"
+	],
+
+	"category": "crafting",
+	"research": "raffiner",
+	"outputItem": "lead2/1"
+}

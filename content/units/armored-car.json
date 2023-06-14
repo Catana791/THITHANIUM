@@ -1,0 +1,51 @@
+name: Armored car
+description: Quite useless.
+
+armor: 200
+"type": "tank"
+isEnemy: false
+drag: 0.05
+speed: 1.1
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 90
+health: 2000
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//shoots
+weapons: [{
+name: frog
+reload: 13
+
+x: 0
+y: -3
+shoot: {
+type: ShootSpread
+shots: 3
+shotDelay: 4
+spread: 3
+}
+
+//projectiles
+inaccuracy: 0
+ejectEffect: casing1
+bullet: {
+type: BasicBulletType
+speed: 5
+damage: 50
+buildingDamageMultiplier: 6.00
+width: 7
+height: 12
+lifetime: 40
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+homingPower: 0.06
+}
+}]
+
+
+research: {
+parent: ground-upgrader
+}

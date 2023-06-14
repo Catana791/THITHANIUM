@@ -1,0 +1,17 @@
+name: Big Vault
+description: Well armoured.
+details: WTF HOW IS IT BEEEEG
+
+type: StorageBlock
+size: 5
+health: 10000
+hasItems: true
+category: effect
+itemCapacity: 10000
+
+research: a
+
+requirements: [
+  copper2/500
+  lid/250
+]

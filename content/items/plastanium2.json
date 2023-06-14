@@ -1,0 +1,8 @@
+{
+    "name": "R-plastanium",
+    "description": "Only raffined plastanium",
+    "explosiveness": 0.40,
+    "flammability": 0.20,
+    "charge": 0,
+    "research": "thithanium"
+}

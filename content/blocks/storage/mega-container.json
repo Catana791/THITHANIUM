@@ -1,0 +1,17 @@
+"name": "Mega container"
+"description": "Compact container for storing large amounts of items. You can increase core capacity with this container by putting it next to the core. Extremely armoured."
+
+size: 2
+health: 50000
+category: effect
+
+requirements:[
+thithanium/500
+thorium2/250
+phase2/50
+]
+
+type: StorageBlock
+hasItems: true
+itemCapacity: 5000
+research: beeg-vault

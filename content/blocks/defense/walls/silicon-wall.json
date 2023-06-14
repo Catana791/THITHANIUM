@@ -1,0 +1,24 @@
+name:"Silicon wall"
+description:"It's quite resistant and it boosts every building in a little range."
+
+size: 1
+category: defense
+health: 750
+hasPower: true
+hasLiquids: false
+type: wall
+
+requirements:[
+    silicon/6
+]
+
+research: lid-wall
+range: 25
+reload: 60
+speedBoost: 1.25
+useTime: 300
+type: overdriveProjector
+
+consumes: {
+ power: 0.5
+}

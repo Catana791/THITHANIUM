@@ -1,0 +1,12 @@
+name:"Lid wall"
+description:"It's more resistant than titanium wall, but it's easier to build and the build time is the same in both cases."
+size: 1
+category: defense
+health: 550
+hasPower: false
+hasLiquids: false
+type: wall
+requirements:[
+    lid/6
+]
+research: a

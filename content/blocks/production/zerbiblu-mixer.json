@@ -1,0 +1,33 @@
+{
+    "name": "Zerbiblù mixer",
+    "description": "Mixes refined lead, copper and normal silicon to make a useful alloy, called <<zerbiblù>>. In English, the pronunciation of that alloy is about as <<zerbibloo>>.",
+    "details": "Lavoisier isn't here XD",
+
+    "health": 900,
+    "type": "GenericCrafter",
+    "size": 2,
+    "hasItems": true,
+    "itemCapacity": 100,
+    "craftTime": 125,
+
+    "consumes": {
+        "power": 35,
+        "items": [
+            "copper2/25",
+            "lead2/50",
+            "silicon/25"
+        ]
+	},
+
+    "requirements": [
+        "lead2/250",
+        "copper2/300",
+        "graphite/450",
+        "silicon/250",
+        "lid/200"
+    ],
+
+    "category": "crafting",
+    "research": "depulverizer",
+    "outputItem": "zerbiblu/10"
+}

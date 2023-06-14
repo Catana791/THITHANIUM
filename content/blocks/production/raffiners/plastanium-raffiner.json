@@ -1,0 +1,30 @@
+{	
+	"name": "Plastanium raffiner",
+    "type": "GenericCrafter",
+    "description": "Raffines plastanium.",
+    "health": 200,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 30,	
+	"craftTime": 70,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+           "plastanium/4"
+			]
+		}
+	},
+	"requirements": [
+		"thithanium/200",
+		"plastanium/75",
+		"graphite/100",
+   "lead2/75",
+		"copper2/50"
+	],
+	"category": "crafting",
+	"research": "thith-raff",
+	"outputItem": "plastanium2/1"
+}

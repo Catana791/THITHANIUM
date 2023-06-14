@@ -1,0 +1,32 @@
+name: Car fabric
+description: Produces mod cars.
+
+type: UnitFactory
+category: units
+health: 1500
+size: 3
+
+consumes: {
+  power: 25
+}
+
+requirements: [
+copper/2500
+graphite/500
+lead/1000
+]
+
+plans: [
+  {
+    unit: car
+    time: 1000
+    requirements: [
+      copper/1000
+      graphite/500
+    ]
+  }
+]
+
+research: {
+  parent: a
+}

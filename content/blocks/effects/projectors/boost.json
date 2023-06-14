@@ -1,0 +1,28 @@
+name: "Little projector"
+description: "A really small projector that is really powerful!"
+details: "WARNING: Don't use it a lot, or else it may cause your device crushing due to excess of speed."
+
+health: 550
+size: 1
+range: 250
+reload: 5
+speedBoost: 2.5
+useTime: 300
+
+consumes: {
+ power: 25
+ items: {
+ items: [copper/1]
+   booster: true
+   optional: true
+  }
+ }
+
+category:effect
+type: overdriveProjector
+
+requirements:[
+thithanium/10
+]
+
+research: microboost

@@ -1,0 +1,19 @@
+{
+	"name": "Small [cyan]thithanium[] solar panel",
+	"description": "Mega powerful panel, but with less life (but also less build time)",
+ "details": "In solar ceramic!",
+
+	"type": "SolarGenerator",
+	"health": 75,
+	"size": 1,
+	"hasPower": true,
+	"powerProduction": 0.18,
+
+	"requirements": [
+		"thithanium/5",
+		"graphite/3"
+	],
+
+	"category": "power",
+	"research": "lid-solar-panel"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "[cyan]Thithanium[] solar panel",
+	"description": "Mega powerful panel!",
+ "details": "In armored solar ceramic!",
+
+	"type": "SolarGenerator",
+	"health": 750,
+	"size": 2,
+	"hasPower": true,
+	"powerProduction": 1.50,
+
+	"requirements": [
+		"thithanium/50",
+		"graphite/10"
+	],
+
+	"category": "power",
+	"research": "small-thithanium-solar-panel"
+}

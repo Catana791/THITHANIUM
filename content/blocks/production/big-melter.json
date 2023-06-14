@@ -1,0 +1,31 @@
+{	
+	"name": "Big melter",
+    "type": "GenericCrafter",
+    "description": "A bigger melter, sturdy.",
+
+    "health": 50,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 40,	
+	"craftTime": 20,
+	"liquidCapacity": 80,
+
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+          "scrap/3"
+			]
+		}
+	},
+
+	"requirements": [
+		"copper2/250",
+   "lead2/100",
+   "graphite/100"
+	],
+
+	"category": "crafting",
+	"research": "crusher",
+	"outputLiquid": "slag/1.6"
+}

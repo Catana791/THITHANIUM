@@ -1,0 +1,33 @@
+{
+  "name": "Air upgrader",
+  "description": "Upgrades mod's air units. There are no energy/efficient problems.",
+
+  "health": 1250,
+  "type": "Reconstructor",
+  "size": 5,
+  "constructTime": 1200,
+//never forget following code! If there are 2 or 
+//more, put a , after the ] .
+  "upgrades": [
+        ["gamma2", "delta"],
+        ["helicopter", "armoured-helicopter"]
+  ],
+
+  "consumes": {
+      "power": 5,
+      "items": {
+          "items": [
+            "silicon/250",
+            "graphite/100",
+            "thithanium/50"
+          ]
+      }
+  },
+
+  "requirements": [
+    "silicon/500",
+    "thithanium/350"
+  ],
+  "category": "units",
+  "research": "gamma-fabricator"
+}

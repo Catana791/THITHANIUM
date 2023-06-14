@@ -1,0 +1,22 @@
+name: Car
+description: Useful for constructing more rapidly.
+details: DON'T use it for war.
+
+"type": "tank"
+isEnemy: false
+drag: 0.05
+speed: 3.1
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 150
+mineSpeed: 7.5
+mineTier: 3
+buildSpeed: 1.50
+health: 50
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+research: {
+parent: car-fabricator
+}

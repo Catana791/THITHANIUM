@@ -1,0 +1,56 @@
+name: Helicopter II
+description: An armoured helicopter, really useful versus spectres! It fires long-range missiles at a very rapid firerate.
+
+//main
+armor: 25
+flying: true
+isEnemy: false
+lowAltitude: true
+drag: 0.05
+speed: 2.5
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 5
+health: 3250
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//weapons (missiles)
+weapons: [{
+name: missile-weapon-mount
+x: 6.5
+y: -4
+reload: 15
+rotate: true
+inaccuracy: 15
+velocityRnd: 0.0
+shootSound: missile
+shootStatusDuration: 25
+bullet: {
+type: MissileBulletType
+width: 7
+height: 7
+shrinkY: 0
+drag: -0.003
+homingRange: 25
+trailChance: 0.2
+keepVelocity: true
+speed: 5
+damage: 250
+splashDamageRadius: 45
+splashDamage: 125
+buildingDamageMultiplier: 1.25
+lifetime: 53.4
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+weaveScale: 6
+weaveMag: 1
+}
+}]
+
+
+
+research: {
+parent: delta-fabricator
+}

@@ -1,0 +1,43 @@
+{
+  "type": "SolidPump",
+  "name": "Small Water Extractor",
+  "description": "Extracts little quantities of groundwater. Used in locations with no surface water available.",
+
+  "health": 320,
+  "result": "water",
+  "hasPower": true,
+  "attribute": "water",
+  "hasLiquids": true,
+  "size": 1,
+  "pumpAmount": 0.05,
+  "consumes": {
+    "power": 1.0
+  },
+
+  "requirements": [
+    {
+      "item": "copper2",
+      "amount": 20
+    },
+    {
+      "item": "lead2",
+      "amount": 15
+    },
+    {
+      "item": "graphite",
+      "amount": 15
+    },
+    {
+      "item": "metaglass",
+      "amount": 5
+    }
+  ],
+
+  "category": "production",
+//don't forget also this code!
+  "research": {
+    "parent": "tmdii",
+    "objectives": ["conduit"]
+  }
+  "liquidCapacity": 25
+}

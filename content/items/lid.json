@@ -1,0 +1,8 @@
+{
+    "name": "Lid",
+    "description": "A light and strong alloy, made with copper and lead.",
+    "explosiveness": 0,
+    "flammability": 0,
+    "charge": 0.24,
+    "research": "lead2"
+}

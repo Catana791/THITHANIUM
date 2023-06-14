@@ -1,0 +1,82 @@
+name: Bombardier
+description: Destroys everything in a small radius.
+flying: true
+targetAir: false
+isEnemy: false
+faceTarget: false
+circleTarget: true
+speed: 1.35
+drag: 0.034
+accel: 0.07
+health: 1000
+engineOffset: 4.25
+engineSize: 1.5
+hitSize: 9
+
+//as delta but deploys bombs instead of shoots
+weapons: [
+{
+name: bomber
+y: 0
+x: 0
+mirror: false
+reload: 25
+shoot: {
+type: ShootPattern
+shots: 8
+shotDelay: 7
+}
+
+//theorically useless
+parts: [
+{
+type: RegionPart
+blending: additive
+outline: false
+mirror: false
+progress: heat
+suffix: -glow
+}
+
+//shooting bomb specifics
+]
+ejectEffect: none
+minShootVelocity: 0.75
+shootCone: 180
+shootSound: mineDeploy
+inaccuracy: 20
+ignoreRotation: true
+
+//bomb
+bullet: {
+type: BombBulletType
+splashDamage: 2500
+splashDamageRadius: 15
+shootEffect: none
+smokeEffect: none
+sprite: mine-bullet
+spin: 5
+shrinkY: 0.7
+shrinkX: 0.7
+width: 13
+height: 13
+backColor: 98ffa9
+frontColor: ffffff
+hitEffect: {
+type: ExplosionEffect
+lifetime: 23
+waveStroke: 4
+waveLife: 10
+waveColor: 98ffa9
+waveRad: 15
+smokes: 6
+smokeColor: ffffff
+sparkColor: ffffff
+sparks: 6
+sparkRad: 20
+sparkStroke: 1.5
+sparkLen: 4
+}
+}
+}
+]

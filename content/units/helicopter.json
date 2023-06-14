@@ -1,0 +1,56 @@
+name: Helicopter
+description: Powerful unit.
+
+//main
+armor: 25
+flying: true
+isEnemy: false
+lowAltitude: true
+drag: 0.05
+speed: 7.8
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 5
+health: 325
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//missiles (only weapon in this case)
+weapons: [{
+name: missile-weapon-mount
+x: 6.5
+y: -4
+reload: 55
+rotate: true
+inaccuracy: 5
+velocityRnd: 0.0
+shootSound: missile
+shootStatusDuration: 25
+bullet: {
+type: MissileBulletType
+width: 7
+height: 7
+shrinkY: 0
+drag: -0.003
+homingRange: 25
+trailChance: 0.2
+keepVelocity: true
+speed: 3
+damage: 120
+splashDamageRadius: 45
+splashDamage: 125
+buildingDamageMultiplier: 0.75
+lifetime: 93.4
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+weaveScale: 6
+weaveMag: 1
+}
+}]
+
+
+
+research: {
+parent: gamma-fabricator
+}

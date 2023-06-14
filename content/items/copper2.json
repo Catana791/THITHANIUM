@@ -1,0 +1,9 @@
+{
+    "name": "R-Copper",
+    "description": "It's like copper, only raffined, with 4x the durability! And it's quadruple as fast! Be careful though, you might get zapped!",
+
+    "explosiveness": 0.15,
+    "flammability": 0.01,
+    "charge": 0.5,
+    "research": "a"
+}

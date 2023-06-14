@@ -1,0 +1,121 @@
+name: Tank
+description: Most powerful ground unit.
+
+armor: 250
+"type": "tank"
+isEnemy: false
+drag: 0.05
+speed: 0.6
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 90
+health: 5500
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//shoots
+weapons: [{
+name: tank-right
+reload: 13
+
+x: 9
+y: -3
+shoot: {
+type: ShootSpread
+shots: 3
+shotDelay: 4
+spread: 3
+}
+
+//projectiles
+inaccuracy: 0
+ejectEffect: casing1
+bullet: {
+type: BasicBulletType
+speed: 5
+damage: 50
+buildingDamageMultiplier: 6.00
+width: 7
+height: 12
+lifetime: 40
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+homingPower: 0.06
+}
+}
+{
+name: tank-left
+reload: 13
+
+x: -9
+y: -3
+shoot: {
+type: ShootSpread
+shots: 3
+shotDelay: 4
+spread: 3
+}
+
+//projectiles
+inaccuracy: 0
+ejectEffect: casing1
+bullet: {
+type: BasicBulletType
+speed: 5
+damage: 50
+buildingDamageMultiplier: 6.00
+width: 7
+height: 12
+lifetime: 40
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+homingPower: 0.06
+}
+}
+
+//the NEW weapon! font: AI
+ {
+ name: tank-main
+ x: 0
+ y: 0
+    rotateSpeed: 3
+/*    targetAir: true
+    targetGround: true
+    mirror: false     */
+    rotate: true
+//    shootEffect: shootBig2
+    ignoreRotation: true
+/*    followRotation: false
+    rotateShooting: false   */
+    reload: 90
+    recoil: 4
+    shootSound: artillery
+
+ bullet: {
+    type: ArtilleryBulletType
+    trailMult: 0.8 
+        trailColor: ff7f14ff
+        frontColor: ff9a00ff
+	backColor: ffa621ff
+    width: 8
+    height: 10
+    status: blasted
+    hitSize: 0.4
+    shootEffect: shootBig2
+    damage: 90
+    collides: true 
+    collidesTiles: true
+    collidesAir: true 
+    splashDamageRadius: 20
+    splashDamage: 45
+    speed: 5
+//    lifeTime: 0
+    }
+   }
+]
+
+
+research: {
+parent: tank-fab
+}

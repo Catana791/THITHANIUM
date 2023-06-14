@@ -1,0 +1,30 @@
+{	
+	"name": "Depulverizer",
+    "type": "GenericCrafter",
+    "description": "DON'T ASK AGAIN HOW IT WORKS!",
+    "details": "It works! Yay!"
+
+    "health": 50,
+	"size": 1,
+	"hasItems": true,
+	"itemCapacity": 50,
+	"craftTime": 100,
+
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+         "sand/20"
+			]
+		}
+	},
+
+	"requirements": [
+        "thithanium/50",
+        "graphite/25"
+	],
+
+	"category": "crafting",
+	"research": "crusher",
+	"outputItem": "scrap/20"
+}

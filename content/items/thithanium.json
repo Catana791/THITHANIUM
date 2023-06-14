@@ -1,0 +1,9 @@
+{
+    "name": "Thithanium",
+    "description": "Raffined titanium, with an high elec charge."
+    "details": "Also known as <<R-titanium>>."
+    "explosiveness": 0,
+    "flammability": 0,
+    "charge": 2.56,
+    "research": "lid"
+}

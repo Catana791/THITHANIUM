@@ -1,0 +1,29 @@
+{
+  "name": "Coek generator",
+  "description": "Uses the high energy of carbon coke for create large amounts of power in a really small space. [red] TEMPORARILY NOT WORKING.",
+
+  "type": "ConsumeGenerator",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 60,
+  "powerProduction": 12,
+
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "coke"
+          "amount": "1"
+        }
+      ]
+    }
+  },
+
+  "requirements": [
+    "lead/1"
+  ],
+
+  "category": "power",
+  "research": "a"
+}

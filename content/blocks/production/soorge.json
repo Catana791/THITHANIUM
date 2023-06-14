@@ -1,0 +1,35 @@
+{
+    "name": "[green]TRUE[] Surge smelter",
+    "description": "Mixes some things for making a refined surge alloy",
+    "details": "Actually creates surge alloy! Don't be fooled by the first one!"
+
+    "health": 5900,
+    "type": "GenericCrafter",
+    "size": 2,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 100,
+    "craftTime": 125,
+
+    "consumes": {
+        "power": 1.5,
+        "liquids": [
+            "cryofluid/5"
+        ],
+        "items": [
+            "surge-alloy/25",
+            "zerbiblu/10",
+            "silicon/5"
+        ]
+	},
+
+    "requirements": [
+        "lid/350",
+        "surge-alloy/150",
+        "zerbiblu/45"
+    ],
+
+    "category": "crafting",
+    "research": "depulverizer",
+    "outputItem": "surge2/5"
+}

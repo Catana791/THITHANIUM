@@ -1,0 +1,43 @@
+type: UnitFactory
+category: units
+
+name: Flying fabricator
+description: Produces flying units of the mod at slow pace and with exorbitant costs. WARNING: It's not armoured, so use it if you're sure that you won't be attached by enemies while construction.
+
+health: 250
+size: 3
+
+consumes: {
+  power: 58
+}
+
+requirements: [
+copper/5000
+lead/2500
+silicon/1000
+]
+
+plans: [
+  {
+    unit: gamma2
+    time: 3000
+    requirements: [
+      copper/1000
+      graphite/500
+      silicon/250
+    ]
+  }
+  {
+    unit: helicopter
+    time: 12500
+    requirements: [
+      copper/5000
+      silicon/3500
+      titanium/2500
+    ]
+  }
+]
+
+research: {
+  parent: car-fabricator
+}

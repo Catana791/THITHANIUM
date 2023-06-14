@@ -1,0 +1,37 @@
+{
+    "name": "Silicon press",
+    "description": "Mixes large batches of water, sand and graphite to make silicon",
+
+    "health": 90,
+    "type": "GenericCrafter",
+    "size": 2,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 100,
+    "craftTime": 125,
+
+
+//OOOHHH THIS FUCKING LIQUID IN AN INDUSTRY
+//AHHHHHHHHHHHH!!!!
+    "consumes": {
+        "power": 1.5,
+        "liquids": [
+            "water/0.5"
+        ],
+        "items": [
+            "sand/25",
+            "graphite/50"
+        ]
+	},
+
+    "requirements": [
+        "lead2/25",
+        "copper2/30",
+        "graphite/45",
+        "lid/20"
+    ],
+
+    "category": "crafting",
+    "research": "depulverizer",
+    "outputItem": "silicon/75"
+}

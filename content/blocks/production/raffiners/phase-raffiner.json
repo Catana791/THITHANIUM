@@ -1,0 +1,27 @@
+{	
+	"name": "Phase fabric raffiner",
+    "type": "GenericCrafter",
+    "description": "Raffines phase fabric",	
+    "health": 150,
+	"size": 2,
+	"hasItems": true,
+	"itemCapacity": 20,	
+	"craftTime": 65,
+	"consumes": {
+		"power": 6.5,
+		"items": {
+			"items": [
+       "phase-fabric/4"
+			]
+		}
+	},
+
+	"requirements": [
+   "thithanium/170",
+		"thorium2/130"
+	],
+
+	"category": "crafting",
+	"research": "thorium-raffiner",
+	"outputItem": "phase2/1"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Compact Drill",
+  "description": "The compression technology gives to that drill a lot of mining power and a really small size. It's only capable of mining basic resources.",
+  "details": "You know, you know, why are you looking here?",
+
+  "type": "Drill",
+  "size": 1,
+  "tier": 2,
+  "itemCapacity": 50,
+  "drillTime": 4,
+  "drawMineItem": false,
+
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.009,
+      "optional": true,
+      "booster": true
+    }
+  },
+
+  "requirements": [
+    {
+      "item": "copper2",
+      "amount": 2
+    }
+  ],
+
+  "category": "production",
+  "research": "a"
+}
+//ez

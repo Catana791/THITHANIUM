@@ -1,0 +1,9 @@
+{
+    "name": "R-thorium",
+    "description": "WARNING: Highly radioactive!"
+    "explosiveness": 1.40,
+    "flammability": 0,
+    "radioactivity": 4.0,
+    "charge": 0.05,
+    "research": "thithanium"
+}

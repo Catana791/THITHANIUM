@@ -1,0 +1,21 @@
+name: "Tiny projector"
+description: "IPH YIU LOOC EEAR YIUR STEEOOPEED!"
+
+health: 100
+size: 1
+range: 250
+reload: 5
+speedBoost: 1.25
+useTime: 300
+
+consumes: {
+  power: 0.033333333333
+}
+category:effect
+type: overdriveProjector
+
+requirements:[
+copper2/50
+]
+
+research: a

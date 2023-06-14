@@ -1,0 +1,19 @@
+{
+    "type": "Conveyor",
+    "name": "[cyan]Thithanium[] conveyaar",
+    "description": "A rafined titanium conveyor, quadruple as fast and quadruple as durable!",
+    "details": "When you use large quantities of this conveyors wo enough RAM, it may cause Mindustry crash. Keep in mind."
+
+    "category": "distribution",
+    "health": 260,
+    "speed": 0.44,
+    "displayedSpeed": 44,
+
+    "requirements": [
+        "copper2/1",
+        "lead2/1",
+        "thithanium/1"
+    ],
+
+    "research": "icer-conveyor"
+}

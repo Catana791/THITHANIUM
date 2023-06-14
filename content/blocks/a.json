@@ -1,0 +1,15 @@
+{
+    "category": "effect",
+    "type": "cores",
+    "name": "[cyan]THITHANIUM",
+    "details": "Contains the new tech tree.",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": {
+      "root": true,
+      "name": "[cyan]THITHANIUM MOD"
+      "requiresUnlock": false
+    }
+    "size": 1
+}

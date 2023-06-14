@@ -1,0 +1,18 @@
+name: Main Building Unit
+description: The main building unit, wo armour. It's wo so much life, so be careful! Don't use it to fight! WARNING: It hasn't weapons.
+
+flying: true
+isEnemy: false
+lowAltitude: true
+mineSpeed: 25.0
+mineTier: 10
+buildSpeed: 2.00
+drag: 0.05
+speed: 8.15
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 500
+health: 5
+engineOffset: 8
+engineSize: 4
+hitSize: 15

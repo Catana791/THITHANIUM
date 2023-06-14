@@ -1,0 +1,34 @@
+{
+  "name": "Tank fab",
+  "description": "Produces tanks from armored cars. Requires large amounts of energy.",
+
+  "health": 550,
+  "type": "Reconstructor",
+  "size": 7,
+  "constructTime": 5400,
+
+  "upgrades": [
+        ["armored-car", "tank"]
+  ],
+
+  "consumes": {
+    "power": 65,
+    "items": {
+      "items": [
+        "thithanium/1000"
+        "zerbiblu/500"
+        "surge2/250"
+        "silicon/100"
+      ]
+    }
+  },
+
+  "requirements": [
+    "silicon/2500",
+    "thithanium/1000",
+    "zerbiblu/500",
+    "surge2/250"
+  ],
+  "category": "units",
+  "research": "ground-upgrader"
+}

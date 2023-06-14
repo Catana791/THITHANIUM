@@ -1,0 +1,43 @@
+type: itemTurret
+name: Trio
+description: "Little turret that has an high firerate, but few damage per shot. More powerful than Duo due to its firerate."
+
+health: 100
+squareSprite: true
+size: 1
+range: 150
+reload: 4
+
+ammoTypes: {
+    copper2: {
+        lifetime: 64
+    speed: 4
+    drag: 0.02
+    damage: 4
+    width: 8
+    height: 11
+   }
+}
+
+"heatColor": "ff0000"
+
+consumes: {
+liquid: {
+liquid: water
+amount: 0.05
+update: false
+booster: true
+optional: true
+}
+}
+drawer: {
+type: DrawTurret
+basePrefix: "serpulo-"
+}
+
+category: turret
+research: a
+requirements: [
+    copper2/50
+    lead2/25
+]

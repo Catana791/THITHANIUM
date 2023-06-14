@@ -1,0 +1,87 @@
+name: Airplane
+description: Almost undeconstuctable. Useless in Low, Medium, High threats because it's too powerful.
+details: Attention: use it carefully, versus multiple tenebras. It has a really short range.
+
+//main
+armor: 250
+flying: true
+isEnemy: false
+lowAltitude: true
+drag: 0.05
+speed: 2.5
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 5
+health: 3250
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//weapons
+weapons: [{
+name: sussy
+y: 0
+x: 0
+mirror: false
+reload: 30
+shoot: {
+type: ShootPattern
+shots: 8
+shotDelay: 8
+/* "damage": "65"*/
+}
+parts: [
+{
+type: RegionPart
+blending: additive
+outline: false
+mirror: false
+progress: heat
+suffix: -glow
+}
+]
+}
+{
+name: missile-weapon-mount
+x: 6.5
+y: -4
+reload: 15
+rotate: true
+inaccuracy: 15
+velocityRnd: 0.0
+shootSound: missile
+shootStatusDuration: 25
+bullet: {
+type: MissileBulletType
+width: 7
+height: 7
+shrinkY: 0
+drag: -0.003
+homingRange: 25
+trailChance: 0.2
+keepVelocity: true
+speed: 5
+damage: 250
+splashDamageRadius: 45
+splashDamage: 125
+buildingDamageMultiplier: 1.50
+lifetime: 25.6
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+weaveScale: 6
+weaveMag: 1
+}
+}]
+
+
+
+research: {
+parent: universal-fab-i
+objectives: [
+gamma-fabricator
+delta-fabricator
+car-fabricator
+ground-upgrader
+tank-fabricator
+]
+}

@@ -1,0 +1,92 @@
+name: Gamma II
+description: An unit that is so powerful, for Tier 1.
+
+//main
+flying: true
+isEnemy: false
+lowAltitude: true
+mineSpeed: 10.0
+mineTier: 3
+buildSpeed: 0.9
+drag: 0.05
+speed: 4.15
+rotateSpeed: 21
+accel: 0.11
+itemCapacity: 50
+health: 650
+engineOffset: 8
+engineSize: 4
+hitSize: 15
+
+//shoots
+weapons: [{
+name: small-basic-weapon
+reload: 10
+
+x: 4
+y: 4.5
+shoot: {
+type: ShootSpread
+shots: 3
+shotDelay: 4
+spread: 3
+}
+
+//projectiles
+inaccuracy: 0
+ejectEffect: casing1
+bullet: {
+type: BasicBulletType
+speed: 3
+damage: 10
+buildingDamageMultiplier: 2.00
+width: 7
+height: 12
+lifetime: 70
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+homingPower: 0.06
+}
+}
+
+//missiles
+{
+name: missile-weapon-mount
+x: 6.5
+y: -4
+reload: 120
+rotate: true
+inaccuracy: 3
+velocityRnd: 0.2
+shootSound: missile
+shootStatusDuration: 25
+bullet: {
+type: MissileBulletType
+width: 7
+height: 7
+shrinkY: 0
+drag: -0.003
+homingRange: 35
+trailChance: 0.2
+trailColor: f9c27a
+frontColor: fff8e8
+backColor: f9c27a
+keepVelocity: false
+speed: 3
+damage: 12
+splashDamageRadius: 18
+splashDamage: 25
+buildingDamageMultiplier: 0.75
+lifetime: 93.4
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+weaveScale: 6
+weaveMag: 1
+}
+}]
+
+
+
+research: {
+parent: gamma-fabricator
+}

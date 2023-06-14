@@ -1,0 +1,9 @@
+name: Zerbiblù
+description: A material used for self-healing structures that don't require power (e.g., not for a furnace, but for a car washing yes)
+charge: 1
+research: {
+parent: lead2
+objectives: [
+phase2
+]
+}
